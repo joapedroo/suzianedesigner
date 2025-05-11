@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suziane Alves | Portfólio Completo</title>
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/produts.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <div class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Menu Overlay -->
+    <div class="menu-overlay">
+        <div class="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="projetos.html" class="nav-link">Projetos</a></li>
+                <li><a href="index.html#about" class="nav-link">Sobre</a></li>
+                <li><a href="index.html#services" class="nav-link">Serviços</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Suziane Alves Logo">
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projetos.html" class="active">Projetos</a></li>
+                    <li><a href="index.html#about">Sobre</a></li>
+                    <li><a href="index.html#services">Serviços</a></li>
+                    <li><a href="index.html#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Projects Header -->
+    <section class="projects-header">
+        <div class="container">
+            <h1 data-aos="fade-down">Meus Projetos</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Explore minha coleção completa de trabalhos criativos. Cada projeto representa uma solução única desenvolvida para atender às necessidades específicas dos meus clientes.</p>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid">
+        <div class="container">
+            <div class="project-categories" data-aos="fade-up">
+                <button class="category-btn active" data-category="all">Todos</button>
+                <button class="category-btn" data-category="branding">Branding</button>
+                <button class="category-btn" data-category="logos">Logotipos</button>
+                <button class="category-btn" data-category="social">Social Media</button>
+                <button class="category-btn" data-category="print">Material Gráfico</button>
+            </div>
+
+            <div class="notice-box fade-in" style="background-color: rgba(255, 77, 109, 0.1); border-left: 4px solid var(--primary); padding: 1rem; margin-bottom: 2rem; border-radius: 4px; opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                <p style="color: var(--gray); font-size: 0.9rem; margin: 0;">
+                    <i class="fas fa-eye-slash" style="color: var(--primary); margin-right: 0.5rem;"></i>
+                    <strong>Observação sobre projetos confidenciais:</strong> Alguns trabalhos de design desenvolvidos sob contrato de exclusividade ou para clientes específicos não podem ser exibidos publicamente em seu formato completo. Detalhes adicionais estão disponíveis mediante solicitação direta.
+                </p>
+            </div>
+            
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="branding" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="images/logo3.jpeg" alt="Salvador Leal Store">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Branding</span>
+                        <h3>Salvador Leal Store</h3>
+                        <p>Desenvolvimento completo da identidade visual para loja de roupas premium, incluindo logo, cartão de visita e papelaria.</p>
+                        <a href="project-detail.html" class="project-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" data-category="logos" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="images/logo2.jpeg" alt="Resgatados por Cristo">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Logotipos</span>
+                        <h3>Resgatados por Cristo</h3>
+                        <p>Criação de logotipo para ministério religioso com elementos simbólicos que representam fé e transformação.</p>
+                        <a href="project-detail.html" class="project-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card" data-category="social" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="images/logo1.jpeg" alt="LS Culinária">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Social Media</span>
+                        <h3>LS Culinária</h3>
+                        <p>Posts para Instagram e Facebook para restaurante especializado em culinária regional, com aumento de 40% no engajamento.</p>
+                        <a href="project-detail.html" class="project-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card" data-category="print" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="images/logo4.jpeg" alt="Revista Cultural">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Material Gráfico</span>
+                        <h3>Revista Cultural</h3>
+                        <p>Diagramação completa e design editorial para revista cultural com 60 páginas, incluindo tratamento de imagens.</p>
+                        <a href="project-detail.html" class="project-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card" data-category="branding" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="images/logo5.jpeg" alt="Clínica Bem Estar">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Branding</span>
+                        <h3>Clínica Bem Estar</h3>
+                        <p>Identidade visual completa para clínica de estética, com paleta de cores suaves e elementos orgânicos.</p>
+                        <a href="project-detail.html" class="project-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="project-card" data-category="logos" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="images/logo6.jpeg" alt="Tech Solutions">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Logotipos</span>
+                        <h3>Tech Solutions</h3>
+                        <p>Logotipo moderno para empresa de tecnologia, com elementos que representam inovação e conectividade.</p>
+                        <a href="project-detail.html" class="project-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo" data-aos="fade-up">
+                    <img src="images/logo.png" alt="Suziane Alves Logo">
+                    <p>Design gráfico criativo e estratégico para marcas memoráveis.</p>
+                </div>
+                <div class="footer-links" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="index.html#about">Sobre</a></li>
+                        <li><a href="index.html#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Serviços</h3>
+                    <ul>
+                        <li>Design de Logo</li>
+                        <li>Identidade Visual</li>
+                        <li>Material Gráfico</li>
+                        <li>UI/UX Design</li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Newsletter</h3>
+                    <p>Assine para receber novidades e dicas de design.</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Suziane Alves. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/procuts.js"></script>
+</body>
+</html>
